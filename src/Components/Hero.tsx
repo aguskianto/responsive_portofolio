@@ -2,8 +2,7 @@
 
 // 1. import icons
 import GithubFillIcon from 'remixicon-react/GithubFillIcon';
-import LinkedInBoxFillIcon from 'remixicon-react/LinkedInBoxFillIcon';
-import { RiVercelFill } from 'react-icons/ri';
+import { RiLinkedinBoxFill, RiVercelFill } from 'react-icons/ri';
 
 // 2. import framer for animation
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
@@ -99,13 +98,13 @@ const Hero: React.FC<Props> = ({ heroRef }) => {
                 href='https://www.linkedin.com/in/aguskianto/'
                 className='hover:bg-blue-600 hover:text-white transitions-color w-[24px] h-[24px]'
               >
-                <LinkedInBoxFillIcon />
+                <RiLinkedinBoxFill className='w-[23px] h-[23px]' />
               </a>
               <a
                 href='https://tailwindcss-shoes-self.vercel.app/'
                 className='hover:bg-blue-600 hover:text-white transitions-color w-[24px] h-[24px]'
               >
-                <RiVercelFill className='w-[22px] h-[22px]' />
+                <RiVercelFill className='w-[23px] h-[23px]' />
               </a>
             </div>
             <h1 className='mt-5 text-center text-lg font-light tracking-wide text-gray-500'>
