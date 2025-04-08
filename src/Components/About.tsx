@@ -3,6 +3,7 @@
 import { RefObject } from 'react';
 
 import Heading from './Sub/Heading';
+import { FaFileDownload } from 'react-icons/fa';
 
 type Props = {
   aboutRef: RefObject<HTMLDivElement | null>;
@@ -26,7 +27,7 @@ const About: React.FC<Props> = ({ aboutRef }) => {
               className='sm:w-[200px] w-[180px] h-auto'
             />
           </div>
-          <div className='md:flex-3 sm:flex-2 sm:p-3 p-0 flex flex-col items-center justify-center'>
+          <div className='md:flex-3 md:p-1 sm:flex-2 sm:p-3 p-0 flex flex-col items-center justify-center'>
             <p className='sm:mt-0 mt-10 first-letter:pl-3 font-light text-gray-700 xl:text-[18px] text-[14px] text-justify'>
               A Full Stack developer (backend, frontend) with extensive
               knowledge on functional, technical requirement and project
@@ -42,6 +43,13 @@ const About: React.FC<Props> = ({ aboutRef }) => {
               <span className='emphasize'>photoshop, figma, framer motion</span>{' '}
               to create stunning and user friendly website.
             </p>
+            <a
+              href='./cv_tech_lead.pdf'
+              download=''
+              className='w-max flex flex-row items-center gap-x-2 mt-6 rounded-full border border-gray-300 bg-red-400 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors sm:block hidden'
+            >
+              <span>Download CV</span>
+            </a>
           </div>
         </div>
       </div>

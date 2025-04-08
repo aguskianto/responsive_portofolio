@@ -52,7 +52,7 @@ const Hero: React.FC<Props> = ({ heroRef }) => {
   return (
     <div
       ref={heroRef}
-      className='min-h-screen min-w-screen grid place-items-center'
+      className='relative min-h-screen min-w-screen grid place-items-center'
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
     >

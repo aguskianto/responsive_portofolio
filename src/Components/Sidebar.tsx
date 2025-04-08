@@ -98,10 +98,10 @@ const Sidebar: React.FC<Props> = ({
 
     // const page = scrollYPosition / window_height;
 
-    if (scrollYPosition < aboutRef.current!.offsetTop) {
+    if (scrollYPosition < aboutRef.current!.offsetTop - 100) {
       setActiveButton('home');
     } else if (
-      scrollYPosition >= aboutRef.current!.offsetTop &&
+      scrollYPosition >= aboutRef.current!.offsetTop - 100 &&
       scrollYPosition < expRef.current!.offsetTop - 100
     ) {
       setActiveButton('about');
