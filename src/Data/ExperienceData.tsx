@@ -1,0 +1,58 @@
+export const ExperienceData = [
+  {
+    company: 'PT Commonwealth Bank Indonesia',
+    location: 'Jakarta',
+    year: 2024,
+    range: '2021 - 2024',
+    role: 'Technical Lead',
+  },
+  {
+    company: 'CODE.ID',
+    location: 'Jakarta',
+    year: 2017,
+    range: '2017 - 2021',
+    role: 'Technical Lead',
+  },
+  {
+    company: 'Tutormu',
+    location: 'Jakarta',
+    year: 2019,
+    range: '2019 - 2021',
+    role: 'Data Science Trainer',
+  },
+  {
+    company: 'PT Kamoro Maxima Integra',
+    location: 'Jakarta',
+    year: 2016,
+    range: '2016 - 2017',
+    role: 'Full Stack Developer',
+  },
+  {
+    company: 'Tokopda',
+    location: 'Jakarta',
+    year: 2014,
+    range: '2014 - 2015',
+    role: 'Full Stack Developer',
+  },
+  {
+    company: 'Bina Nusantara University',
+    location: 'Jakarta',
+    year: 2007,
+    range: '2007 - 2013',
+    role: 'Instructional Designer',
+  },
+  {
+    company: 'Digital Studio College',
+    location: 'Jakarta',
+    year: 2007,
+    range: '2007 - 2009',
+    role: 'Web, 3D Trainer',
+  },
+  {
+    company: 'Bina Nusantara University',
+    location: 'Jakarta',
+    year: 2003,
+    range: '2003 - 2007',
+    role: 'Network Engineer',
+  },
+];

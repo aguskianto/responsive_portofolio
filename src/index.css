@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+@utility emphasize {
+  @apply font-semibold text-blue-600;
+}
