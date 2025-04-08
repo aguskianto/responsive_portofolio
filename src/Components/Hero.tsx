@@ -68,7 +68,7 @@ const Hero: React.FC<Props> = ({ heroRef }) => {
               }}
             >
               <img
-                src='./src/assets/profile.png'
+                src='./profile.png'
                 alt='profile pictures'
                 width={140}
                 height={140}

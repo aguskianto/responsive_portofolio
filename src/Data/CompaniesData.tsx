@@ -1,34 +1,34 @@
 export const CompaniesData = [
   {
     name: 'PT CommonWealth Bank Indonesia',
-    src: './src/assets/companies/commonwealth.png',
+    src: './companies/commonwealth.png',
   },
   {
     name: 'Bank Jago',
-    src: './src/assets/companies/jago.png',
+    src: './companies/jago.png',
   },
   {
     name: 'Prudential',
-    src: './src/assets/companies/prudential.png',
+    src: './companies/prudential.png',
   },
   {
     name: 'Bank BTPN',
-    src: './src/assets/companies/btpn.png',
+    src: './companies/BTPN.png',
   },
   {
     name: 'Merapi Utama Pharma',
-    src: './src/assets/companies/MUP.png',
+    src: './companies/MUP.png',
   },
   {
     name: 'Nojorono Tobacco Indonesia',
-    src: './src/assets/companies/nojorono.png',
+    src: './companies/nojorono.png',
   },
   {
     name: 'AIA',
-    src: './src/assets/companies/AIA.png',
+    src: './companies/AIA.png',
   },
   {
     name: 'Freeport Indonesia',
-    src: './src/assets/companies/freeport.png',
+    src: './companies/freeport.png',
   },
 ];

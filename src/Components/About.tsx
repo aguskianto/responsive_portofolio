@@ -19,7 +19,7 @@ const About: React.FC<Props> = ({ aboutRef }) => {
         <div className='sm:mt-0 mt-10 sm:w-full xl:p-10 sm:p-20 p-0 flex flex-col sm:flex-row'>
           <div className='sm:flex-1 flex items-center justify-center'>
             <img
-              src='./src/assets/work.png'
+              src='./work.png'
               alt='about image'
               width={300}
               height={300}

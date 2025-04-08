@@ -30,7 +30,7 @@ const Experience: React.FC<Props> = ({ expRef }) => {
       <Heading text={'Experience & Education'} />
 
       <img
-        src='./src/assets/education.png'
+        src='./education.png'
         alt='education'
         width={200}
         height={200}
