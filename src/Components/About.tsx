@@ -3,7 +3,6 @@
 import { RefObject } from 'react';
 
 import Heading from './Sub/Heading';
-// import Achievements from './Sub/Achievements';
 
 type Props = {
   aboutRef: RefObject<HTMLDivElement | null>;

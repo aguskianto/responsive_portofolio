@@ -98,29 +98,29 @@ const Sidebar: React.FC<Props> = ({
 
     // const page = scrollYPosition / window_height;
 
-    if (scrollYPosition < aboutRef.current.offsetTop) {
+    if (scrollYPosition < aboutRef.current!.offsetTop) {
       setActiveButton('home');
     } else if (
-      scrollYPosition >= aboutRef.current.offsetTop &&
-      scrollYPosition < expRef.current.offsetTop - 100
+      scrollYPosition >= aboutRef.current!.offsetTop &&
+      scrollYPosition < expRef.current!.offsetTop - 100
     ) {
       setActiveButton('about');
     } else if (
-      scrollYPosition >= aboutRef.current.offsetTop - 100 &&
-      scrollYPosition < skillsRef.current.offsetTop - 100
+      scrollYPosition >= aboutRef.current!.offsetTop - 100 &&
+      scrollYPosition < skillsRef.current!.offsetTop - 100
     ) {
       setActiveButton('experience');
     } else if (
-      scrollYPosition >= skillsRef.current.offsetTop - 100 &&
-      scrollYPosition < projRef.current.offsetTop - 100
+      scrollYPosition >= skillsRef.current!.offsetTop - 100 &&
+      scrollYPosition < projRef.current!.offsetTop - 100
     ) {
       setActiveButton('skills');
     } else if (
-      scrollYPosition >= projRef.current.offsetTop - 100 &&
-      scrollYPosition < clientRef.current.offsetTop - 100
+      scrollYPosition >= projRef.current!.offsetTop - 100 &&
+      scrollYPosition < clientRef.current!.offsetTop - 100
     ) {
       setActiveButton('projects');
-    } else if (scrollYPosition >= clientRef.current.offsetTop - 100) {
+    } else if (scrollYPosition >= clientRef.current!.offsetTop - 100) {
       setActiveButton('clients');
     }
 

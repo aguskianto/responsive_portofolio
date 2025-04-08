@@ -11,12 +11,12 @@ import Clients from '../Components/Clients';
 import { useRef } from 'react';
 
 const Home = () => {
-  const heroRef = useRef<HTMLDivElement | null>(null);
-  const aboutRef = useRef<HTMLDivElement | null>(null);
-  const expRef = useRef<HTMLDivElement | null>(null);
-  const skillsRef = useRef<HTMLDivElement | null>(null);
-  const projRef = useRef<HTMLDivElement | null>(null);
-  const clientRef = useRef<HTMLDivElement | null>(null);
+  const heroRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const expRef = useRef<HTMLDivElement>(null);
+  const skillsRef = useRef<HTMLDivElement>(null);
+  const projRef = useRef<HTMLDivElement>(null);
+  const clientRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className='relative'>
